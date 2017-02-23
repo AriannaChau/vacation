@@ -12,8 +12,15 @@ $(document).ready(function() {
     var answer5 = parseInt($('input:radio[name=question5]:checked').val());
     console.log("Answer 5 is: " + answer5)
     var userScore = (answer1 + answer2 + answer3 + answer4 + answer5)
+
+    $("#result").show();
+
+    if (userScore === 5) {
+        $("#borabora").show();
+
+    } else {
+        $("#norway").show();
+    }
+
   });
-
-
-
 });
