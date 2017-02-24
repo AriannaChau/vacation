@@ -11,23 +11,26 @@ $(document).ready(function() {
     // console.log("Answer 4 is: " + answer4)
     var answer5 = parseInt($('input:radio[name=question5]:checked').val());
     // console.log("Answer 5 is: " + answer5)
-    var userScore = (answer1 + answer2 + answer3 + answer4 + answer5)
+    var answer6 = parseInt($('input:radio[name=question6]:checked').val());
+    // console.log("Answer 5 is: " + answer6)
+    var userScore = (answer1 + answer2 + answer3 + answer4 + answer5 + answer6)
     var firstNameInput = $("input#firstName").val();
 
     $('.firstName').text(firstNameInput);
 
+    $("#quiz").fadeOut();
+
     $("#result").show();
 
-    if (userScore === 5) {
+    if (userScore <= 10) {
         $("#borabora").show();
 
-    }  else if (userScore === 10) {
+    }  else if (userScore <= 14) {
         $("#norway").show();
 
-    }  else if (userScore === 15) {
+    }  else if (userScore <= 18) {
         $("#newyork").show();
 
     }
-
   });
 });

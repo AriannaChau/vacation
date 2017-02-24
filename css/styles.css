@@ -3,10 +3,6 @@ img {
   width: 600px;
 }
 
-#borabora, #norway, #newyork {
-  display: none;
-}
-
 body {
   background-color: #9DAC8C;
 }
@@ -15,6 +11,18 @@ body {
   background-color: #D5E2C5;
 }
 
+.button {
+  text-align: center;
+}
+
+#borabora, #norway, #newyork {
+  display: none;
+}
+
 #result {
   text-align: center;
+}
+
+#firstName {
+  width: 30%;
 }

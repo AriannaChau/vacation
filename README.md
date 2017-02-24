@@ -8,6 +8,10 @@
 
 This is a quiz that contains five questions about you to get an idea of where you should go on your next getaway. Each answer to the questions is given a value and based on the questions you pick, the computer uses jQuery to decide where you should go out of the three destinations, Norway, Bora Bora and New York City.
 
+## Link to Site
+
+*link when I get gh pages set up*
+
 ## Setup/Installation Requirements
 
 * Have the latest CSS, Bootstrap and jQuery installed
