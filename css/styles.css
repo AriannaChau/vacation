@@ -6,3 +6,15 @@ img {
 #borabora, #norway, #newyork {
   display: none;
 }
+
+body {
+  background-color: #9DAC8C;
+}
+
+.well {
+  background-color: #D5E2C5;
+}
+
+#result {
+  text-align: center;
+}

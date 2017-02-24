@@ -9,7 +9,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Answer a couple questions to figure out your perfect vacation destination!</h1>
+      <div class="well">
+        <h1>Answer a couple questions to figure out your perfect vacation destination!</h1>
+        <p>The new year is right around the corner, as in a month away, you have two weeks of vacation time stacked up and it's gonna be gone come the end of the year. How do you spend it? Take this quiz to find out your perfect vacation destination!</p>
+      </div>
       <form class="quiz">
         <label for="firstName">Your first name:</label>
         <input id="firstName" class="form-control" type="text">
@@ -108,20 +111,22 @@
             I'd rather discover my own path than go where everyone else goes.
           </label>
         </div>
-
-        <button type="submit" class="btn">Take me away!</button>
-        <div id="result">
-          <div id="borabora">
-            <h2>Time to set sail to Bora Bora!</h2>
-            <img src="img/borabora.jpg">
-          </div>
-          <div id="norway">
-            <h2>Get away from the noise and relax in Norway!</h2>
-            <img src="img/norway.jpg">
-          </div>
-          <div id="newyork">
-            <h2><span id="firstName"></span>Join the hustle and bustle in New York City!</h2>
-            <img src="img/newyork.jpg">
+      <button type="submit" class="btn">Take me away!</button>
+      <div id="result">
+        <div id="borabora">
+          <h2>Get excited, <span class="firstName"></span>, time to set sail for Bora Bora!</h2>
+          <p>Sometimes life can get really exhausting and you need to get away from your responsibilites for a time. Well hakuna matata, you're headed to Bora Bora! Kick up your feet and forget you have any worries, it's okay for today. Completely surrounded by crystal clear water and white beaches, it's a picture perfect paradise for just about anybody. Please <a href="http://www.fourseasons.com/borabora/">click here</a> when you're ready to plan your perfect getaway.</p>
+          <img src="img/borabora.jpg">
+        </div>
+        <div id="norway">
+          <h2>Get excited, <span class="firstName"></span>, escape the noise and relax in Norway!</h2>
+          <p>The great outdoors fuel your very being. The further away from civilization, the more you thrive. Norway is surrounded by pure nature and wildlife. It's a great place to escape your everyday life and recollect your thoughts. Update your passport, cause you're about to go on the vacation that dreams are made of. Hallo from Norway! If you've never been, <a href="https://www.visitnorway.com/">click here</a> for an inside look before you go.</p>
+          <img src="img/norway.jpg">
+        </div>
+        <div id="newyork">
+          <h2>Get excited, <span class="firstName"></span>, join the hustle and bustle in New York City!</h2>
+          <p>You like to stay busy, the quiet eventually drives you mad. Have no fear! New York City is never short of things do to, people to meet, food to eat and sights to see. If you want a vacation packed full of excitement and newness, anything can happen in a New York Minute! Don't forget to check out <a href="http://www.nycgo.com/">this site</a> for a guide around the big NYC.</p>
+          <img src="img/newyork.jpg">
           </div>
         </div>
       </form>
