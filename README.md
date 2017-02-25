@@ -10,7 +10,7 @@ This is a quiz that contains five questions about you to get an idea of where yo
 
 ## Link to Site
 
-*link when I get gh pages set up*
+https://ariannachau.github.io/vacation/
 
 ## Setup/Installation Requirements
 
