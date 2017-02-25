@@ -7,6 +7,10 @@ body {
   background-color: #9DAC8C;
 }
 
+h1 {
+  font-family: 'Poiret one';
+}
+
 .well {
   background-color: #D5E2C5;
 }
